@@ -43,9 +43,13 @@
 ;
 ; Updated by elsamuko <elsamuko@web.de>
 ; http://registry.gimp.org/node/7870
+;
+; January 29, 2024
+; Script made 2.10 compatible by Simon Bland portraitsbysimonbland.com
+; Download at https://github.com/Nikkinoodl/Lomo/edit/main/pbsb-lomo.scm
 
 
-(define (elsamuko-lomo aimg adraw avig asat acon
+(define (pbsb-lomo aimg adraw avig asat acon
                        sharp wide_angle gauss_blur
                        motion_blur grain c41 
                        invertA invertB
@@ -499,13 +503,13 @@
     )
   )
 
-(script-fu-register "elsamuko-lomo"
+(script-fu-register "pbsb-lomo"
                     _"_Lomo..."
                     "Do a lomo effect on image. 
-Latest version can be downloaded from http://registry.gimp.org/node/7870"
-                    "elsamuko <elsamuko@web.de>"
-                    "elsamuko"
-                    "15/02/05"
+Latest version can be downloaded from https://github.com/Nikkinoodl/Lomo/edit/main/pbsb-lomo.scm"
+                    "Simon Bland"
+                    "eSimon Bland"
+                    "1/29/2024"
                     "*"
                     SF-IMAGE       "Input image"           0
                     SF-DRAWABLE    "Input drawable"        0
@@ -539,4 +543,4 @@ Latest version can be downloaded from http://registry.gimp.org/node/7870"
                     SF-ADJUSTMENT _"	Radius(%)"         '(115 0 200 1 20 0 0)
                     )
 
-(script-fu-menu-register "elsamuko-lomo" _"<Image>/Filters/Light and Shadow")
+(script-fu-menu-register "pbsb-lomo" _"<Image>/Filters/Light and Shadow")
