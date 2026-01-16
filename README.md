@@ -15,7 +15,7 @@ Windows:
 ```
 
 C:\user\<username>\AppData\Roaming\GIMP\2.10\scripts
-C:\user\<username>\AppData\Roaming\GIMP\3/0\plugins\gimp_lomo\gimp_lomo.py
+C:\user\<username>\AppData\Roaming\GIMP\3.0\plugins\gimp_lomo\gimp_lomo.py
 
 ```
 
