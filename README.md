@@ -1,7 +1,7 @@
 # Lomo
 A GIMP script that emulates the classic look of Diana and Holga camera images.
 
-This plugin is based on the work of https://elsamuko.github.io/gimp-elsamuko/scripts/lomo.html and updates the scripts to work in GIMP 2.10 and has been converted to
+This plugin is based on the work of https://elsamuko.github.io/gimp-elsamuko/scripts/lomo.html and updates the scripts to work in GIMP 2.10. It has been converted to
 Python and updated to work in Gimp 3.0
 
 ![Ballard-industrial-Lomo-sm](https://github.com/Nikkinoodl/Lomo/assets/17559271/922410dc-fc20-43a0-90b1-998d58269156)
