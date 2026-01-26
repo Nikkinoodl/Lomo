@@ -5,7 +5,7 @@ This plugin is based on the work of others including https://elsamuko.github.io/
 
 The Gimp 3.0 version contains a re-usable workaround that enables the Gimp.Drawable.curves_spline method to be used in non-linear space.
 
-The plugin allows the optional application of multiple effects from a single dialog, including: wide angle distortion, lens blur, focus blur, grain, overexposure, and sharpness. Contrast and saturation can also be changed. However, the true benefit of this plugin is to allow the application of an assortment of color effects, many of which are complex to perform manually and difficult to repeat accurately. For example:
+The plugin allows the optional application of multiple effects from a single dialog, including: wide angle distortion, lens blur, focus blur, grain, overexposure, and sharpness. Contrast and saturation can also be changed. However, the true benefit of this plugin is to allow the application of an assortment of color effects, many of which are complex to perform manually and difficult to repeat accurately.
 
 The XPro Green effect seen in the image below involves appying different curve splines to each of the red, green and blue channels in non-linear color space.
 
@@ -14,6 +14,10 @@ The XPro Green effect seen in the image below involves appying different curve s
 The XPro LAB effect seen in the next image involves decomposing the image into LAB channels. A levels-stretch in linear space is performed on the A and B channels followed by a gamma correction, then the A and B channels are recomposed back into the original image.
 
 ![XPro LAB effect applied to a wooded scene](https://github.com/user-attachments/assets/060e5102-36f4-4207-a598-1eb906b76022)
+
+The Payne's Gray black and white effect is used together with lens distortion, focus blur, grain, and overexposure to get the Holga Camera effect seen in the next image.
+
+![Paynes gray effect and wide angle distortion applied to a Stamford, Connecticut street scene](https://github.com/user-attachments/assets/09e4429a-8183-4144-a991-f4277ec4d487)
 
 To install, download the file and place it in the appropriate folder location. You can find this by selecting Edit/Preferences then navigating to Folder->Scripts (for the Gimp 2.10 script) or Folder->Plugins (for the Gimp 3.0 plugin) from the GIMP menu. If you have not already done do, it is much easier to find these folders if you make them visible — in Windows, you can do this from the menu bar in File Explorer.
 
