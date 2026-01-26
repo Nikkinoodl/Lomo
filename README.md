@@ -1,7 +1,9 @@
 # Lomo
 A GIMP script that emulates the classic look of Diana and Holga camera images.
 
-This plugin is based on the work of others including https://elsamuko.github.io/gimp-elsamuko/scripts/lomo.html and updates the scripts to work in GIMP 2.10. It has been converted to Python and updated to work in Gimp 3.0  Please note that there appears to be an issue with Gimp 3.0 which prevents some of the color adjustments from being applied correctly and the effects may look different in each version.
+This plugin is based on the work of others including https://elsamuko.github.io/gimp-elsamuko/scripts/lomo.html and updates the scripts to work in GIMP 2.10. It has been converted to Python and updated to work in Gimp 3.0
+
+The Gimp 3.0 version contains a re-usable workaround that enables the Gimp.Drawable.curves_spline method to be used in non-linear space.
 
 ![Ballard-industrial-Lomo-sm](https://github.com/Nikkinoodl/Lomo/assets/17559271/922410dc-fc20-43a0-90b1-998d58269156)
 
