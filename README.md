@@ -11,7 +11,7 @@ The XPro Green effect seen in the image below involves appying different curve s
 
 ![XPro green effect applied to an industrial street scene](https://github.com/Nikkinoodl/Lomo/assets/17559271/922410dc-fc20-43a0-90b1-998d58269156)
 
-The XPro LAB effect seen in the next image involves decomposing the image into LAB channels. A levels-stretch in linear space is performed on the A and B channels followed by a gamma correction, then the A and B channels are recomposed back into the original image.
+The XPro LAB effect seen in the next image involves decomposing the image into LAB channels. The A and B channels individually undergo a levels stretch in linear space  followed by a gamma correction, before being recomposed back into the original image.
 
 ![XPro LAB effect applied to a wooded scene](https://github.com/user-attachments/assets/060e5102-36f4-4207-a598-1eb906b76022)
 
