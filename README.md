@@ -1,11 +1,9 @@
 # Lomo
 A GIMP script that emulates the classic look of Diana and Holga camera images.
 
-This plugin is based on the work of others including https://elsamuko.github.io/gimp-elsamuko/scripts/lomo.html and updates the scripts to work in GIMP 2.10. It has been converted to Python and updated to work in Gimp 3.0
+This plugin is based on the work of others including https://elsamuko.github.io/gimp-elsamuko/scripts/lomo.html and updates the scripts to work in GIMP 2.10. It has been re-written in Python, completely overhauled and updated to work in Gimp 3.0 with non-destructive Gegl operations. It also contains a re-usable workaround that enables the Gimp.Drawable.curves_spline method to be used in non-linear space.
 
-The Gimp 3.0 version contains a re-usable workaround that enables the Gimp.Drawable.curves_spline method to be used in non-linear space.
-
-The plugin allows the optional application of multiple effects from a single dialog, including: wide angle distortion, lens blur, focus blur, grain, overexposure, and sharpness. Contrast and saturation can also be changed. However, the true benefit of this plugin is to allow the application of an assortment of color effects, many of which are complex to perform manually and difficult to repeat accurately.
+The plugin allows the optional application of multiple effects from a single dialog, including: wide angle distortion, lens blur, focus blur, grain, overexposure, and sharpness. Contrast and saturation can also be changed. However, the true benefit of this plugin is in applying an assortment of color effects, many of which are complex to perform manually and difficult to repeat accurately.
 
 The XPro Green effect seen in the image below involves appying different curve splines to each of the red, green and blue channels in non-linear color space.
 
