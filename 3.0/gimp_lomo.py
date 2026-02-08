@@ -557,7 +557,15 @@ class Lomo(Gimp.PlugIn):
     layer.add_mask(mask)
 
     return mask
-  
+
+	#adds a fill in specified mode and color (defaults to BLACK)
+  def FillWithColor(self, layer, r = 0.0, g = 0.0, b = 0.0):
+    fgColor = Gegl.Color.new('black')
+    fgColor.set_rgba(r, g, b, 0.0)
+    Gimp.context_set_foreground(fgColor)
+    layer.edit_fill(Gimp.FillType.FOREGROUND)
+    return
+
   def SetDefaultContexts(self):
 
     Gimp.context_set_opacity(100)
@@ -627,3 +635,4 @@ class Lomo(Gimp.PlugIn):
 
 # Entry point
 Gimp.main(Lomo.__gtype__, sys.argv)
+
