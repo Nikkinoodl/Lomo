@@ -36,9 +36,7 @@
 #   As before, double and black vignetting are performed in additional layers however changes have been made to both
 #   operations. Change the layer opacity of each to modify their strength.
 #
-#   The curves_spline and LAB operations take place in linear light, vs the perceptual space that was used in Gimp 2.10
-#   and earlier versions (LAB inversions are unchanged). These operations have been modified from the original plugin
-#   to give better results.
+#   Workarounds have been applied to the curves_spline and LAB A/B operations so that they are rendered in RGB perceptual space (LAB inversions are unchanged).
 #   Download at https://github.com/Nikkinoodl/Lomo/blob/main/3.0/gimp_lomo/gimp_lomo.py
 
 '''
